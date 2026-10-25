@@ -180,6 +180,7 @@ def metrics():
     return {
         "uptime_seconds": round(time.time() - بدأت_الخدمة, 1),
         "requests_total": ن,
+        "by_topic": dict(عداد_المواضيع),
         "errors_total": عدادات["errors_total"],
         "latency_ms_avg": round(عدادات["latency_ms_sum"] / ن, 2) if ن else 0,
         "latency_ms_max": round(عدادات["latency_ms_max"], 2),
