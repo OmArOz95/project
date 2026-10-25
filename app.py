@@ -18,7 +18,7 @@ import logging
 
 from fastapi import FastAPI, HTTPException, Request, Response
 
-app = FastAPI(title="مشروعي", version="1.0")
+app = FastAPI(title="Project", version="1.0")
 
 logging.basicConfig(
     level=logging.INFO,
